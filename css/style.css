@@ -83,3 +83,25 @@ body{
   color: white;
 
 }
+
+/*--- Upcoming Events ---*/
+.upcoming-events{
+  background-color: black;
+  color: white;
+}
+
+.events-header{
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.events-container{
+text-align: center;
+}
+
+.events-icon2,
+.events-icon3,
+.events-icon1{
+  font-size:30px;
+  margin-bottom: 25px;
+}
