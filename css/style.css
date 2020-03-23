@@ -172,3 +172,9 @@ text-align: center;
 .social-buttons{
   font-size: 30px;
 }
+
+/*--- Overflow fix ---*/
+
+.row{
+  margin-right: 0px;
+}
