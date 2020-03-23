@@ -1,81 +1,89 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="css/style.css">
-  <title>DJ Website</title>
-</head>
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+   <link rel="stylesheet" href="css/style.css">
+   <title>DJ Website</title>
+ </head>
 
-<body>
-  <!--- Header  ----->
-  <header>
-    <div class="row navbar bg-color-navbar">
-      <div class="col-md-4 logo">
-        <img class="logo-image" src="images/logo.jpg" alt="logo">
-      </div>
-      <div class="col-md-8 navbar-content">
-        <ul class="list-inline nav-container">
-          <li class="list-inline-item col-4 col-sm-2"><a href="#">Home</a></li>
-          <li class="list-inline-item col-4 col-sm-2"><a href="#">About</a></li>
-          <li class="list-inline-item col-4 col-sm-2"><a href="#">Merch</a></li>
-          <li class="list-inline-item col-4 col-sm-2"><a href="#">Events</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
-  <!--- Image ----->
-  <div class="row">
-    <div class="col-12 big-bg-image">
-      <div class="bg-title">
-        <h1 class="title">The Official DJ Flups Website</h1>
-        <p class="center titletext">Placeholder text</p>
-      </div>
-    </div>
-  </div>
-  <!--- Upcoming Events ----->
-  <article>
-    <div class="upcoming-events">
-      <div class="row">
-        <div class="col-12 events-header">
-          <h2 class="center">Upcoming events</h2>
-        </div>
-      </div>
-      <div class="row events-container">
-        <div class="col-12 col-md-6 col-lg-4">
-          <i class="fas fa-dragon events-icon1"></i>
-          <h2 class="center">Event 01</h2>
-          <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <i class="fab fa-angellist events-icon2"></i>
-          <h2 class="center">Event 02</h2>
-          <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="col-12 d-md-none d-lg-block col-lg-4">
-          <i class="fas fa-drum events-icon3"></i>
-          <h2 class="center">Event 03</h2>
-          <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-    </div>
-  <!--- Photo Slide Show ----->
-    <div class="row">
+ <body>
+   <!--- Header  ----->
+   <header>
+     <div class="row navbar bg-color-navbar">
+       <div class="col-10 logo">
+         <a href="#">
+           <img class="logo-image" src="images/logo.jpg" alt="logo">
+         </a>
+       </div>
+       <!--- I coppied this dropdown from an earlyier website of the course --->
+       <div class="col-2 input-group dropdown-button">
+         <div class="input-group-append">
+           <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+           <div class="dropdown-menu">
+             <a class="dropdown-item" href="#">Home</a>
+             <a class="dropdown-item" href="#upcoming-events">Events</a>
+             <a class="dropdown-item" href="#merch">Merch</a>
+             <a class="dropdown-item" href="#muziek">Music</a>
+           </div>
+         </div>
+       </div>
+
+     </div>
+   </header>
+   <!--- Image ----->
+   <div class="row">
+     <div class="col-12 big-bg-image">
+       <div class="bg-title">
+         <h1 class="title">The Official DJ Flups Website</h1>
+         <p class="center titletext">Placeholder text</p>
+       </div>
+     </div>
+   </div>
+   <!--- Upcoming Events ----->
+   <article class="">
+     <div class="upcoming-events" id="upcoming-events">
+       <div class="row no-gutters">
+         <div class="col-12 ">
+           <h2 class="center events-header">Upcoming events</h2>
+         </div>
+       </div>
+       <div class="row no-gutters events-container">
+         <div class="col-12 col-md-6 col-lg-4">
+           <i class="fas fa-dragon events-icon1"></i>
+           <h3 class="center">Event 01</h3>
+           <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+             consequat. Duis
+             aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+         <div class="col-12 col-md-6 col-lg-4">
+           <i class="fab fa-angellist events-icon2"></i>
+           <h3 class="center">Event 02</h3>
+           <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+             consequat. Duis
+             aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+         <div class="col-12 d-md-none d-lg-block col-lg-4">
+           <i class="fas fa-drum events-icon3"></i>
+           <h3 class="center">Event 03</h3>
+           <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+             consequat. Duis
+             aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+       </div>
+     </div>
+     <!--- Photo Slide Show ----->
+     <!--- This Carousel Was taken from the Bootstrap Documentation --->
+     <div class="row">
        <div class="col bg-color-photo photo-header">
          <h2 class="center">Photogallery</h2>
        </div>
-    </div>
-  <div class="row no-gutters">
+     </div>
+     <div class="row no-gutters">
        <div class="col-12">
          <div id="carouselExampleIndicators" class="carousel slide fotoshow" data-ride="carousel">
            <ol class="carousel-indicators">
@@ -105,8 +113,8 @@
          </div>
        </div>
      </div>
-  <!--- Merch ------>
-    <div class="merch-container  bg-color-merch" id="merch">
+     <!--- Merch ----->
+     <div class="merch-container  bg-color-merch" id="merch">
        <div class="row no-gutters">
          <div class="col-12 ">
            <h2 class="center merch-header">Merch</h2>
@@ -129,8 +137,9 @@
          </div>
        </div>
      </div>
-  <!--- Muziek ----->
-  <div class="muziek-container bg-color-muziek" id="muziek">
+     <!--- Muziek ----->
+     <!--- The Iframes are coppied from youtube --->
+     <div class="muziek-container bg-color-muziek" id="muziek">
        <div class="row no-gutters">
          <div class="col-12 ">
            <h2 class="center muziek-header">Music</h2>
@@ -152,15 +161,18 @@
        </div>
      </div>
    </article>
-  <!--- Footer ----->
-  <footer>
+   <!--- Footer ----->
+   <hr class="divider">
+   <footer>
      <div class="muziek-container bg-color-muziek" id="muziek">
        <div class="row no-gutters bg-color-footer">
          <div class="col-12 col-md-6 col-lg-4">
            <div class="info-header">
              <h3 class="center">Personal info</h3>
              <div class="row">
-               <div class="col-1"></div>
+               <div class="col-1">
+
+               </div>
                <div class="col-3">
                  <p>Naam:</p>
                </div>
@@ -222,10 +234,10 @@
        </div>
      </div>
    </footer>
-<script src="https://kit.fontawesome.com/038155ffd3.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+   <script src="https://kit.fontawesome.com/038155ffd3.js" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ </body>
 
-</html>
+ </html>
