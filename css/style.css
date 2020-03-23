@@ -5,8 +5,17 @@ body{
 
 /*--- Colours ---*/
 .bg-color-navbar,
-.bg-color-photo{
+.bg-color-photo,
+.bg-color-merch,
+.bg-color-muziek
+{
   background-color: black;
+}
+
+.divider{
+  color:grey;
+  background-color: black;
+  margin: 0px;
 }
 
 /*--- Text transform padding and margins ---*/
@@ -20,21 +29,29 @@ h3{
 }
 
 
+
 /*--- Navbar ---*/
 .navbar{
   margin-left:0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 120px;
+
 }
 
 .logo-image{
-  height: 100px;
+  height: 80px;
   margin-left: 50px;
-  margin-top: 20px;
+  top: 0;
 }
 .navbar-content{
   padding: 0px;
 }
 .nav-container{
   color: white;
+
 }
 
 .list-inline-item{
@@ -58,10 +75,13 @@ h3{
 
 /*--- Background Image ---*/
 
+/*--- I coppied this from an earlyier page of the course ---*/
 .big-bg-image{
+
+  margin-top: 100px;
   height: 100vh;
   width: 100%;
- background: url(../images/background-image.jpg) no-repeat bottom right fixed;
+ background: url(../images/background-image.jpg) no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -86,7 +106,6 @@ h3{
 
 .titletext{
   color: white;
-
 }
 
 /*--- Upcoming Events ---*/
@@ -97,7 +116,8 @@ h3{
 
 .events-header{
   margin-top: 30px;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
+  font-size: 50px;
 }
 
 .events-container{
@@ -110,7 +130,6 @@ text-align: center;
   font-size:30px;
   margin-bottom: 25px;
 }
-
 /*--- Carousel ---*/
 
 .photo-header{
@@ -135,6 +154,7 @@ text-align: center;
 .image-towel{
   width: 90%;
 }
+
 /*--- Muziek ---*/
 
 .muziek-container{
@@ -146,4 +166,9 @@ text-align: center;
   margin-top: 30px;
   margin-bottom: 45px;
   font-size: 50px;
+}
+
+
+.social-buttons{
+  font-size: 30px;
 }
