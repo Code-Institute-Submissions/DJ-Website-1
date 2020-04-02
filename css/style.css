@@ -130,6 +130,11 @@ text-align: center;
   font-size:30px;
   margin-bottom: 25px;
 }
+
+.events-content-col p{
+  padding-left: 30px;
+  padding-bottom: 90px;
+}
 /*--- Carousel ---*/
 
 .photo-header{
