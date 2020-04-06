@@ -58,6 +58,17 @@ Testing
 As far as the testing for a almost static website
 I tested the nav button, I tested if all the links work and if it dropped down correctly, the only thing Im not sure how to fix is when the dropdown part of the button hoovers over the photoslide. if you click something from the dropdown while it hovers over the photoslide it will use the photoslide for some reason
 I tested the bootstrap photoslide and figured out it didnt work without Jquery
+I also had troubles with different sized images but that was fixed when correcting the image sizes,
+
+Deployment
+
+Logged into GitHub
+I went to my repository "DJ-Website"
+Afther that I selected settings and scrolled down to github pages
+For the source I selected "master brance"
+Once I selected 'master branch' the website was deployed
+
+
 
 Credits
 Content:
