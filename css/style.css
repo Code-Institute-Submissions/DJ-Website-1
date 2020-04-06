@@ -11,13 +11,6 @@ body{
 {
   background-color: black;
 }
-
-.divider{
-  color:grey;
-  background-color: black;
-  margin: 0px;
-}
-
 /*--- Text transform padding and margins ---*/
 
 .center{
@@ -115,13 +108,14 @@ h3{
 }
 
 .events-header{
-  margin-top: 30px;
-  margin-bottom: 45px;
+  margin-top: 90px;
+  margin-bottom: 90px;
   font-size: 50px;
 }
 
 .events-container{
 text-align: center;
+
 }
 
 .events-icon2,
@@ -138,20 +132,21 @@ text-align: center;
 /*--- Carousel ---*/
 
 .photo-header{
-  padding-top: 30px;
-  padding-bottom: 45px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   color: white;
 }
 
 /*--- Merch ---*/
 
 .merch-header{
-  margin-top: 30px;
-  margin-bottom: 45px;
+  margin-top: 90px;
+  margin-bottom: 90px;
   font-size: 50px;
 }
 .merch-container{
   color: white;
+  padding-bottom: 90px;
 }
 
 .image-cap,
@@ -164,13 +159,21 @@ text-align: center;
 
 .muziek-container{
   color: white;
-  padding-bottom: 30px;
+  padding-bottom: 150px;
 }
 
 .muziek-header{
-  margin-top: 30px;
-  margin-bottom: 45px;
+  margin-top: 90px;
+  margin-bottom: 90px;
   font-size: 50px;
+}
+
+/*--- Footer ---*/
+
+.footer{
+  color: white;
+  border-top: 3px;
+  border-color: white;
 }
 
 
@@ -182,4 +185,8 @@ text-align: center;
 
 .row{
   margin-right: 0px;
+}
+
+iframe{
+  min-height: 400px;
 }
